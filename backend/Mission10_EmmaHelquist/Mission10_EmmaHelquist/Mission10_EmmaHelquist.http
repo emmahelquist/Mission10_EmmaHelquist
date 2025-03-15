@@ -1,0 +1,6 @@
+@Mission10_EmmaHelquist_HostAddress = http://localhost:5099
+
+GET {{Mission10_EmmaHelquist_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
