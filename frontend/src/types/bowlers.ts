@@ -1,3 +1,5 @@
+// Basically a bowler class for react
+
 export type bowler = {
   bowlerId: number;
   bowlerFirstName: string;

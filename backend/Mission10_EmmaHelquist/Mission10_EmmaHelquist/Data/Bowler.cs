@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Mission10_EmmaHelquist.Data;
 
+// Class for bowler
 public class Bowler
 {
     [Key]
@@ -14,5 +15,8 @@ public class Bowler
     public string? BowlerState { get; set; }
     public string? BowlerZip { get; set; }
     public string? BowlerPhoneNumber { get; set; }
+    
+    //Foreign Key Relationship
     public int TeamID { get; set; }
+    public Team Team { get; set; }
 }

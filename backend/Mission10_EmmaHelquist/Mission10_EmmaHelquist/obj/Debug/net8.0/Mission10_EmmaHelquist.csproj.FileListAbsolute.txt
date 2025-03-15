@@ -156,3 +156,4 @@
 /Users/test/RiderProjects/Mission10_EmmaHelquist/backend/Mission10_EmmaHelquist/Mission10_EmmaHelquist/obj/Debug/net8.0/Mission10_EmmaHelquist.pdb
 /Users/test/RiderProjects/Mission10_EmmaHelquist/backend/Mission10_EmmaHelquist/Mission10_EmmaHelquist/obj/Debug/net8.0/Mission10_EmmaHelquist.genruntimeconfig.cache
 /Users/test/RiderProjects/Mission10_EmmaHelquist/backend/Mission10_EmmaHelquist/Mission10_EmmaHelquist/obj/Debug/net8.0/ref/Mission10_EmmaHelquist.dll
+/Users/test/RiderProjects/Mission10_EmmaHelquist/backend/Mission10_EmmaHelquist/Mission10_EmmaHelquist/obj/Debug/net8.0/Mission10_EmmaHelquist.sourcelink.json

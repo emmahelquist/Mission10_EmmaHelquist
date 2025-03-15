@@ -4,6 +4,7 @@ import { bowler } from './types/bowlers';
 function BowlerList() {
   const [bowlers, setBowlers] = useState<bowler[]>([]);
 
+  //   Make it so it doesn't overload the server
   useEffect(() => {
     //   Asyncronous call; update the food list
     const fetchBowler = async () => {
@@ -15,9 +16,12 @@ function BowlerList() {
     fetchBowler();
   }, []);
 
+  //   Home page info
   return (
     <>
       <h1>Bowler Information</h1>
+      <h2>Here is a list of all members on the Marlins and Sharks teams!</h2>
+      <h3>Made by Emma Helquist, Section 4</h3>
       <table>
         <thead>
           <tr>
@@ -31,12 +35,13 @@ function BowlerList() {
           </tr>
         </thead>
         <tbody>
+          {/* Grab all the bowler information */}
           {bowlers.map((b) => (
             <tr key={b.bowlerId}>
               <td>
                 {`${b.bowlerFirstName ?? ''} ${b.bowlerMiddleInit ?? ''} ${b.bowlerLastName ?? ''}`.trim()}
               </td>
-              <td>{b.teamID ?? ''}</td>
+              <td>{b.team?.teamName ?? 'No Team Assigned'}</td>
               <td>{b.bowlerAddress ?? ''}</td>
               <td>{b.bowlerCity ?? ''}</td>
               <td>{b.bowlerState ?? ''}</td>

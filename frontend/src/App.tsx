@@ -1,3 +1,6 @@
+// Emma Helquist
+// Section 4
+
 import './App.css'
 import BowlerList from './BowlerList'
 
